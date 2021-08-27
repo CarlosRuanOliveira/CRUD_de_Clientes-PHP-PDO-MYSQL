@@ -9,15 +9,19 @@
 **Página principal:**  
   - Listagem dos clientes cadastrados e seus respectivos dados.  
 ![index.php](imagens/Demonstracao/indexphp.png)  
+
 **Formulário de cadastro dos dados do clientes:**  
   - Os campos CPF, nome, telefone e email são obrigatórios.  
 ![index.php](imagens/Demonstracao/cadastrophp.png)  
 ![index.php](imagens/Demonstracao/cadastroUf.png)  
 ![index.php](imagens/Demonstracao/cadastroNasc.png)  
+
 **Formulário de edição dos dados dos clientes**  
   - Puxa os dados do BD e o formulário já vem preenchido com os dados cadastrados.  
 ![index.php](imagens/Demonstracao/editarphp.png)  
+
 **Página para confirmação de exclusão do cadastro de um cliente**  
+  - Ao precisar de 2 etapas para exclusão de um cadastro, é mais seguro que o usuário não exclua o cliente errado acidentalmente, dessa forma o usuário tem a opção de cancelar a exclusão e voltar para a página principal.  
 ![index.php](imagens/Demonstracao/excluirphp.png)  
   - Ao ocorrer um erro por qualquer motivo (durante a edição ou exclusão), o sistema retorna para página principal e mostra um alerta.  
 ![index.php](imagens/Demonstracao/alertError.png)  
