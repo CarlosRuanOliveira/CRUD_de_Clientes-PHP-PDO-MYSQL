@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #0F76FF;
+    height: 50px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+header > h2{
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+body{
+    margin: auto;
+    background-image: url(../imagens/bg.png);
+}
+.alert{
+    margin-left: 20%;
+    background-color: white;
+    border-radius: 3px;
+    text-align: center;
+    padding: 10px;
+    max-width: 250px;
+}
+.alertGreen{
+    background-color: #21ff46;
+}
+.alertRed{
+    background-color: #ff2121;
+}
+.btn{
+    margin-left: 20%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 7px;
+    width: 120px;
+    text-align: center;
+    background-color: #2145FF;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 15px;
+    }
+.btn > a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.btn:hover{
+    height: 20px;
+    width: 123px;
+}
+table{
+    margin: auto;
+    padding: 5px;
+    width: 70%;
+    background-color: white;
+    border-collapse: separate;
+    border-spacing: 0px;
+    border-style: solid;
+    border-width: 1px 4px 1px 4px;
+    border-color: #002afc;
+    border-radius: 10px;
+}
+th, td{
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #2146ff63;
+    padding-right: 8px;
+    white-space: nowrap;
+    text-align: center;
+}
+tr:hover{
+    background-color: #0f77ff8a;
+}
+.btnAcoes{
+    border: none;
+    background-color: transparent;
+}
+.btnGreen:hover{
+    background-color: #21ff46;
+}
+.btnRed:hover{
+    background-color: #ff2121;
+}
+#btnCancel{
+    border-color: #21ff46;
+    border-radius: 3px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 17px;
+}
+#btnCancel > a{
+    text-decoration: none;
+}
+#btnDel{
+    height: 25px;
+    width: auto;
+    text-align: center;
+    border-color: #ff2121;
+    font-size: 17px;
+}
+fieldset{
+    max-width: 650px;
+    height: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-color: #2145FF;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+}
+form > div{
+    font-weight: bolder;
+    display: block;
+}
+form > div > label{
+    float: left;
+    text-align: right;
+    margin: 8px;
+    margin-left: -5px;
+    width: 100px;
+}
+form > div > input{
+    margin: 5px;
+    height: 22px;
+    width: 460px;
+    border-color: #3578E8;
+    border-radius: 10px;
+}
+form > #endereco > input{
+    width: 393px;
+}
+form > div > select{
+    margin-left: 3px;
+    border-color: #3578E8;
+    border-radius: 3px;
+    height: 25px;
+    width: 60px;
+}
+#radio > input{
+    width: 0px;
+    margin-left: 10px;
+    float: left;
+}
+#radio > label{
+    text-align: right;
+    width: 80px;
+    margin-left: 9px;
+}
+#submit{
+    height: 25px;
+    width: 65px;
+    text-align: center;
+    margin-left: 85%;
+}
+#submit:hover{
+    height: 28px;
+    width: 68px;
+}
+footer{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    background-color: #0F76FF;
+    height: 50px;
+    border-radius: 7px;
+}
+footer > p{
+    color: white;
+    position: relative;
+    top: 25%;
+    text-align: center;
+}
