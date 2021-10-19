@@ -1,11 +1,11 @@
 # CRUD_de_Clientes-PHP7-PDO-MYSQL
  Um pequeno projeto pessoal para praticar PHP orientado a objetos usando PDO.  
- Códigos no GitHub: https://github.com/CarlosRuanOliveira/CRUD_de_Clientes-PHP-PDO-MYSQL
 ## Objetivo  
   - Durante as férias, antes do 2º semestre da faculdade, eu usei meu tempo livre para estudar PHP POO e resolvi criar um projeto simples onde usarei HTML, CSS, PDO e MySQL para praticar o que aprendi. ps: Também vou usar o composer com PSR-4 apenas para o autoloading de arquivos e classes php.  
   - Neste projeto farei um CRUD (Create, Read, Update e Delete), ou seja, será possível cadastrar dados de clientes no banco de dados, ler os dados já cadastrados, editar e atualizar estes dados ou deletar completamente o cadastro.  
   - Tem como foco o sistema em si mas usei o CSS para deixar o visual mais bonito.  
-  - Criei o banco de dados na minha máquina usando o LAMPP  
+  - Criei o banco de dados na minha máquina usando o LAMPP.  
+  - Usei como referência o seguinte vídeo, do canal WDEV: https://www.youtube.com/watch?v=uG64BgrlX7o  
 ## Demonstração  
 **Página principal:**  
   - Listagem dos clientes cadastrados e seus respectivos dados.  
